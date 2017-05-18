@@ -12,12 +12,13 @@ To see a demo and further details go to http://jasonwatmore.com/post/2015/03/10/
     * 1.2 - El servicio realizara la peticion a http://swapi.co/api/starships/.
     * 1.3 - Se tiene que utilizar Promise y puedes utilizar la propiedad resolve del router. 
 
-* 2. Crea un componente que se llame de la siguiente forma: <ships></ships>
-    * 2.1 - Este componente pintara los campos: name y passengers.
-    * 2.2 - Los datos entraran a traves de un Input.
-    * 2.3 - Tendra un Output para añadir 5 elementos mas a la lista.
+* 2. Crea un componente que se llame de la siguiente forma: '''<custom-md-list> </custom-md-list>'''
+    * 2.1 - Este componente recibirá datos del controlador padre.
+    * 2.2 - El componente mostrará por pantalla el campo name de cada uno de los elementos.
+    * 2.3 - El controlador padre enviará solo 5 elementos al componente.
+    * 2.3 - El componente tendrá un campo "mas datos". Al pulsarlo, añadirá 5 elementos más a la lista.
     
-* 3. Implementa un menú mobile de bootstrap con las páginas: Home, Register y Ships.  
-    * 3.1 - En mobile debe estar oculto por defecto y abrirse tipo desplegable.
-    * 3.2 - En desktop debe estar en una linea. 
+* 3. Implementa un menú mobile/desktop de bootstrap con las páginas: Home, Register y Ships.  
+    * 3.1 - En mobile debe estar oculto (menú hamburguesa) por defecto y abrirse tipo desplegable.
+    * 3.2 - En desktop debe estar en una línea. 
 
