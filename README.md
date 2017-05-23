@@ -1,11 +1,17 @@
 ## - AngularJS User Registration and Login Example
 
-
+### Instalación
 * Para ejecutar:
  * <pre><code> npm install </code></pre>
  * <pre><code> npm install webpack -g </code></pre>
  * <pre><code> npm install webpack-dev-server -g </code></pre>
 
+##Instrucciones:
+
+A continuación detallamos las tareas a realizar. Por cada uno de los puntos que se detallan, crea un commit con los cambios realizados.
+En el comentario del commit especifica los cambios que has realizado así como explicaciones o aportaciones que consideres importante comentar.
+
+### Tareas
 * 1. Crea una página publica que se acceda mediante: localhost:8080/#!/ships o similar.
     * 1.1 - El controlador de esta página debe realizar una petición a un servicio.
     * 1.2 - El servicio realizara la petición a http://swapi.co/api/starships/.
