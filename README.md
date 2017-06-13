@@ -14,7 +14,8 @@ En el comentario del commit especifica los cambios que has realizado así como e
 ### Tareas
 * 1. Crea una página pública que se acceda mediante: localhost:8080/#!/ships o similar.
     * 1.1 - El controlador de esta página debe realizar una petición a un servicio.
-    * 1.2 - El servicio realizará la petición a http://swapi.co/api/starships/.
+    * 1.2 - El servicio realizará la petición a http://swapi.co/api/starships/. --> Ojo con esto.Para que funcione hay que añadir la siguiente Header a la llamada:
+    `headers: { 'Authorization': 'none'} `
     * 1.3 - Muestra el resultado por consola.
     * 1.4 - Utiliza Promesas para gestionar el resultado.
 
