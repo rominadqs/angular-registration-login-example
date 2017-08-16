@@ -31,7 +31,9 @@ En el comentario del commit especifica los cambios que has realizado así como e
     * 3.1 - El menú debe estar oculto (menú hamburguesa) por defecto y abrirse tipo desplegable. 
     * 3.2 - En desktop debe estar en una línea.  
 * 4. A la página starships añade  la maquetación adjunta a continuación de la tabla: MAQUETA_NICOLE.jpg
-    * 4.1 La maqueta ha de ser responsive. Dejamos a criterio personal como debe responder en formatos mobile.
-    * 4.1 No es necesario implementar el play del vídeo de la imágen nº 5.
-    * 4.1 Las imagenes han de tener un efecto hover como el que se muestra en la imágen: ejemplo_hover.png
+    * 4.1 La maqueta ha de ser responsive. Se adjunta diseño en mobile MAQUETA_NICOLE_MOBILE.png
+    * 4.2 No es necesario implementar el play del vídeo de la imágen nº 5.
+    * 4.3 Las imagenes han de tener un efecto hover como el que se muestra en la imágen: ejemplo_hover.png
+    * 4.4 Los textos que aparecen en la imágen han de sert TEXTO y no imágen.
+
 
