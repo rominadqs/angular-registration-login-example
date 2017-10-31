@@ -1,11 +1,11 @@
 {
   "name": "dutti-test",
   "version": "1.0.0",
-  "description": "angular-registration-login-example\r ==============================",
+  "description": "angular-registration-login-example",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": ""
+    "start": "webpack-dev-server --host 127.0.0.1 --port 8080"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "tapable": "^0.2.6",
     "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "webpack": "2.5.0"
   }
 }
