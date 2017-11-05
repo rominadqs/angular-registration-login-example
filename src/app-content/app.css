@@ -1,3 +1,7 @@
-﻿a {
+﻿a, .more {
     cursor: pointer;
+}
+.down-text{
+    font-family: Arial,sans-serif;
+    font-size: 11px;
 }

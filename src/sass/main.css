@@ -1,0 +1,80 @@
+.headLine {
+  font-size: 50px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 19%;
+}
+
+.fotter-Image, .down-text {
+  font-family: Arial,sans-serif;
+}
+
+.fotter-Image .text, .down-text .text {
+  font-size: 11px;
+}
+
+.fotter-Image {
+  margin-top: 10px;
+  color: #505252;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper .hover-text, .image-wrapper .image-headline {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #505252;
+  opacity: 0.8;
+  align-items: center;
+  display: none;
+}
+
+.image-wrapper .hover-text p, .image-wrapper .image-headline p {
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.image-wrapper:hover .hover-text {
+  display: flex;
+}
+
+.image-wrapper .image-headline {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.image-wrapper .image-headline p {
+  text-transform: none;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.p-3 {
+  padding: 30px 0px;
+}
+
+.m-3 {
+  margin-top: 10%;
+}
+
+@media (max-width: 1200px) {
+  .headLine {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .headLine {
+    display: none;
+  }
+  .image-wrapper .image-headline {
+    display: flex;
+  }
+}
